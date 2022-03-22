@@ -276,13 +276,14 @@ headerLogo{
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
-    height:300%;
+    height:2700px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: space-evenly;
 }
+
 .placesToCrash img{
     border: 5px double rgb(121, 72, 9);
     box-shadow: 0 0 20 10 black;
