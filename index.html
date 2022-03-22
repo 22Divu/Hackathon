@@ -1,0 +1,301 @@
+<html>
+    <head>
+        <title>BookPackTravel</title>
+        <link rel = "icon" type = "image/png" href = "images/logo_short.png">
+        <!-- Font Awesome -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+        <!-- MDB -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css"rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inspiration&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="main.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    </head>
+    <body>
+        <header>
+            <span class="headerLogo"><a href="#"><img src="images/logo_short.png">Book Pack Travel</a></span>
+            <ul>
+                <li>Home</li>
+                <li>Place to Crash</li>
+                <li>Backpack</li>
+                <li>Holidays</li>
+                <li>Activity</li>
+            </ul>
+            <ul>
+                <li>&#128276;</li>
+                <li class="profileImage"><img src="images/profile.jpg"/>
+                <p id="showProfile">&#9698;</p>
+                </li>
+            </ul>
+            <div class="profile" id="profile">
+                <ol>
+                    <li>Profile</li>
+                    <li>My Programs</li>
+                    <li>My Account</li>
+                    <li onclick="console.log('logout works')">Log out</li>
+                </ol>
+            </div>
+        </header>
+        <div class="main">
+            <div id="nav">
+                <div class="transport">
+                    <button>Flights</button>
+                    <button>Trains</button>
+                    <button>Hotels</button>
+                    <button>Buses</button>
+                    <button>Homestay</button>
+                </div>
+                <div class="searchDiv">
+                    <input type="text" placeholder="Search..."/>
+                    <input type="button" value="Search">
+                </div>
+            </div>
+        </div>
+        <h1 class="label">places To Crash</h1>
+        <div class="placesToCrash" id="placesToCrash">
+            <div class="site">
+                <div class="desc"></div>
+                <img src="images/pic8.jpg"/>
+            </div>
+            <div class="site">
+                <img src="images/pic2.png"/>
+                <div class="desc"></div>
+            </div>
+            <div class="site">
+                <div class="desc"></div>
+                <img src="images/pic9.jpg"/>
+            </div>
+            <div class="site">
+                <img src="images/pic10.jpg"/>
+                <div class="desc"></div>
+            </div>
+            <div class="site">
+                <div class="desc"></div>
+                <img src="images/pic11.jpg"/>
+            </div>
+            <div class="site">
+                <img src="images/pic1.jpeg"/>
+                <div class="desc"></div>
+            </div>
+        </div>
+
+        <div class="submain">
+            <span class="backpack">
+                <div>
+                    <h1 class="label">Backpack</h1>
+                    <div id="backpack">
+                        
+                    </div>
+                </div>
+            </span>
+            <span class="holiday">
+                <div>
+                    <h1 class="label">Holiday Programs</h1>
+                    <div  id="holidays">
+
+                    </div>
+                </div>
+            </span>
+        </div>
+        <footer id="dk-footer" class="dk-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-4">
+                        <div class="dk-footer-box-info">
+                            <a href="index.html" class="footer-logo">
+                                <img src="images/logo_short.png" alt="footer_logo" class="img-fluid">
+                            </a>
+                            <div class="footer-social-link">
+                                <h3>Follow us</h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-google-plus"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- End Social link -->
+                        </div>
+                        <!-- End Footer info -->
+                        <div class="footer-awarad">
+                            <img src="images/icon/best.png" alt="">
+                            <p>Book Pack Travel</p>
+                        </div>
+                    </div>
+                    <!-- End Col -->
+                    <div class="col-md-12 col-lg-8">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="contact-us">
+                                    <div class="contact-icon">
+                                        <i class="fa fa-map-o" aria-hidden="true"></i>
+                                    </div>
+                                    <!-- End contact Icon -->
+                                    <div class="contact-info">
+                                        <h3>Meerut India</h3>
+                                        <p>-----Address Lane-----</p>
+                                    </div>
+                                    <!-- End Contact Info -->
+                                </div>
+                                <!-- End Contact Us -->
+                            </div>
+                            <!-- End Col -->
+                            <div class="col-md-6">
+                                <div class="contact-us contact-us-last">
+                                    <div class="contact-icon">
+                                        <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                                    </div>
+                                    <!-- End contact Icon -->
+                                    <div class="contact-info">
+                                        <h3>95 711 9 ****</h3>
+                                        <p>Give us a call</p>
+                                    </div>
+                                    <!-- End Contact Info -->
+                                </div>
+                                <!-- End Contact Us -->
+                            </div>
+                            <!-- End Col -->
+                        </div>
+                        <!-- End Contact Row -->
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="footer-widget footer-left-widget">
+                                    <div class="section-heading">
+                                        <h3>Useful Links</h3>
+                                        <span class="animate-border border-black"></span>
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <a href="#">About us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Services</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Projects</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Our Team</a>
+                                        </li>
+                                    </ul>
+                                    <ul>
+                                        <li>
+                                            <a href="#">Contact us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Blog</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Testimonials</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Faq</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- End Footer Widget -->
+                            </div>
+                            <!-- End col -->
+                            <div class="col-md-12 col-lg-6">
+                                <div class="footer-widget">
+                                    <div class="section-heading">
+                                        <h3>Subscribe</h3>
+                                        <span class="animate-border border-black"></span>
+                                    </div>
+                                    <form action="#">
+                                        <div class="form-row">
+                                            <div class="col dk-footer-form">
+                                                <input type="email" class="form-control" placeholder="Email Address">
+                                                <button type="submit">
+                                                    <i class="fa fa-send"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <!-- End form -->
+                                </div>
+                                <!-- End footer widget -->
+                            </div>
+                            <!-- End Col -->
+                        </div>
+                        <!-- End Row -->
+                    </div>
+                    <!-- End Col -->
+                </div>
+                <!-- End Widget Row -->
+            </div>
+            <!-- End Contact Container -->
+    
+    
+            <div class="copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span>Copyright © 2022, All Right Reserved Seobin</span>
+                        </div>
+                        <!-- End Col -->
+                        <div class="col-md-6">
+                            <div class="copyright-menu">
+                                <ul>
+                                    <li>
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Terms</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Privacy Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- End col -->
+                    </div>
+                    <!-- End Row -->
+                </div>
+                <!-- End Copyright Container -->
+            </div>
+            <!-- End Copyright -->
+            <!-- Back to top -->
+            <div id="back-to-top" class="back-to-top">
+                <button class="btn btn-dark" title="Back to Top" style="display: block;">
+                    <i class="fa fa-angle-up"></i>
+                </button>
+            </div>
+            <!-- End Back to top -->
+    </footer>
+        <script src="main.js"/>
+        <!-- MDB -->
+        <script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"
+        ></script>
+    </body>
+</html>
