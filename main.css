@@ -283,7 +283,6 @@ headerLogo{
     align-items: center;
     justify-content: space-evenly;
 }
-
 .placesToCrash img{
     border: 5px double rgb(121, 72, 9);
     box-shadow: 0 0 20 10 black;
@@ -304,7 +303,6 @@ headerLogo{
 }
 
 
-
 .backpack{
     position:absolute;
     width:49%;
@@ -312,7 +310,7 @@ headerLogo{
     height:100%;
     background: url("images/pic5.png");
     background-size: 95%;
-	background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -505,7 +503,7 @@ p{
   align-items: center; }
   .footer-awarad p {
     color: #fff;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 700;
     margin-left: 20px;
     padding-top: 55px; }
