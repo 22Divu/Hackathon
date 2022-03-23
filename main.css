@@ -276,7 +276,7 @@ headerLogo{
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
-    height:2700px;
+    height: 270em;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
